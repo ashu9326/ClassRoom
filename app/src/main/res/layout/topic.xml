@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewId"
+            android:text="1"
+            android:textSize="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewTopicName"
+            android:layout_toRightOf="@+id/textViewId"
+            android:layout_marginLeft="15dp"
+            android:text="Array"
+            android:textSize="30dp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButtonPlayer"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/youtubebutton"
+
+             />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
